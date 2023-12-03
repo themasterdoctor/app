@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:20.9
 WORKDIR /app
 
 RUN npm install -g ganache
